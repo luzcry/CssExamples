@@ -1,0 +1,37 @@
+#container {
+    background-color: crimson;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "negro . . . "
+    ". rosado rosado . " 
+    ". rosado rosado ."
+    ". . . ." 
+    ;
+
+}
+
+#box1 {
+    background-color: rgb(236, 67, 67);
+    grid-area: negro;
+
+}
+#box1:hover {
+    background-color: cyan;
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+
+#box2 {
+    background-color: black;
+    grid-area: rosado;
+}
+#box2:hover{
+    transition: step-start;
+    background-color: rgb(139, 0, 69);
+    transition-duration: 1s;
+}
+
+
