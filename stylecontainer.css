@@ -7,8 +7,8 @@ body {
     }
 .container {
         display: grid;
-        grid-template-columns: 80px 50px 80px;
-        grid-template-rows: 60px auto 60px; 
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr 2fr; 
         grid-gap: 25px 20px;
       }
     
@@ -16,12 +16,13 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: rgb(14, 13, 13);
-    padding: 1rem;
+    padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
     }
 
 p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     padding: 1rem;
     margin: 0;
     color: rgb(21, 156, 123);
@@ -39,18 +40,21 @@ ul {
     }
     
 a {
-        display: inline-flex;
         text-decoration: none;
-        color: rgb(206, 79, 6);
-        padding-left: 8px;
+        color: deeppink;
+        margin: 0;
+        font-family: 'Open Sans Condensed', sans-serif;   
     }
+li {
+    justify-self: self-start;
+}
     
  a:hover {
-        background:  rgb(133, 255, 224);;
+        background: rgb(197, 243, 245);
     }
     
 a:active {
-        background: rgb(247, 94, 6);
+        background: rgb(253, 183, 210);
         color: #fff; 
     }
 
@@ -58,3 +62,6 @@ a:active {
         justify-self: center;
     }
     
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Open Sans Condensed', sans-serif;*/
