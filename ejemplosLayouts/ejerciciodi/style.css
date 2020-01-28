@@ -1,0 +1,12 @@
+#box_1 { 
+	width: 200px;
+	height: 200px;
+    background: #ee3e64;
+}
+    
+#box_2 {
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    }

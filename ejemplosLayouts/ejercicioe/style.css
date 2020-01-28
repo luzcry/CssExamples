@@ -1,0 +1,33 @@
+/* Example E shows four boxes, each in a corner of the browser window. Since we set each box’s position value to absolute, we’ve essentially velcroed a box to each corner of our browser window*/
+#box_1 { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#box_2 { 
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+#box_3 { 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+#box_4 { 
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #ebde52;
+}

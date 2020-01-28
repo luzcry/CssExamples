@@ -1,0 +1,23 @@
+/*Example C shows this relative positioning in action. Our three blocks are stacked up nicely, but this time the blue block (#box_2) is pushed out 200 pixels from the left.*/
+
+#box_1{
+    position: static;
+    width: 200px;
+    height: 200px;
+    background: #ee3e64;
+}
+
+#box_2 { 
+	position: relative;
+	left: 200px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3 {
+    position: static;
+    width: 200px;
+    height: 200px;
+    background: #b7d84b;
+}

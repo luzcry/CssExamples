@@ -1,0 +1,18 @@
+/*In example G we’ve created a border offset 10 pixels by the document, and it’s entirely fluid as the document resize—all with absolute positioning and offsets.*/
+
+#box_a { 
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    background: #44accf;
+}
+#box_b {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        bottom: 20px;
+        left: 20px;
+        background: #ff9c34;
+}
