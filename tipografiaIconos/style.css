@@ -1,0 +1,32 @@
+#container{ 
+    display: flex;
+    background-color: white;
+    border:rgb(241, 227, 209) 1px solid;
+}
+
+.box{
+    border: rgb(241, 227, 209) 1px solid;
+    width: 300px;
+    height: 300px;
+    justify-items: center;
+    padding: 1rem;
+    font-family:  'Lato', sans-serif;
+   }
+
+   .img{
+       padding: 50px;
+       margin: 1rem;
+   }
+
+
+
+ h4 {
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+ h2 {
+    font-family: 'Lato', sans-serif;
+
+}
+
