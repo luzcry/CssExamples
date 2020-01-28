@@ -1,8 +1,8 @@
 body {
     font-family: sans-serif;
 }
-nav {
-   /* outline: 1px solid red;
+/*nav {
+    outline: 1px solid red;
     width: 200px; */
 }
 ul{
@@ -53,3 +53,4 @@ ul li:first-child a:hover{
 ul li:first-child a:active {
     color: #fff;
 }
+/*placeself*/
