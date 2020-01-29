@@ -11,20 +11,27 @@
     padding: 1rem;
     font-family:  'Lato', sans-serif;
     display: grid;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
    } 
 
 .img{
-    max-height: 50px;
     place-self: center;
 }
 
  h4 {
     font-family: 'Bebas Neue', cursive;
+    margin: 0px;
     
 }
 
  h2 {
     font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
 
+footer{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 1rem;
 }
 
