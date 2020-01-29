@@ -1,24 +1,22 @@
 .container{ 
     display: grid;
     background-color: white;
-    border:rgb(241, 227, 209) 1px solid;
+    grid-template-columns: repeat(5, 1fr);
+    border: rgb(223, 150, 150) 1px solid;
 }
-
-/*.box{
+.box{
     border: rgb(241, 227, 209) 1px solid;
-    width: 300px;
-    height: 300px;
+    box-sizing: border-box;
     justify-items: center;
     padding: 1rem;
     font-family:  'Lato', sans-serif;
-   } */
+    display: grid;
+   } 
 
-   .img{
-       padding: 50px;
-       margin: 1rem;
-   }
-
-
+.img{
+    max-height: 50px;
+    place-self: center;
+}
 
  h4 {
     font-family: 'Bebas Neue', cursive;
