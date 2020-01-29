@@ -1,9 +1,15 @@
+ body {
+    background: #ee9ca7;  
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
+}
 .container{ 
     display: grid;
-    background-color: white;
     grid-template-columns: repeat(5, 1fr);
-    border: rgb(223, 150, 150) 1px solid;
-}
+    border: rgb(233, 97, 215) 1px solid;
+    background-color: white;
+        }
+
 .box{
     border: rgb(241, 227, 209) 1px solid;
     box-sizing: border-box;
@@ -11,9 +17,13 @@
     padding: 1rem;
     font-family:  'Lato', sans-serif;
     display: grid;
-    grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
+    grid-template-rows: 1fr 50px 50px 110px;
    } 
 
+   h1{
+       text-align: center;
+      font-family: 'Roboto Mono', monospace; 
+   }
 .img{
     place-self: center;
 }
@@ -21,12 +31,13 @@
  h4 {
     font-family: 'Bebas Neue', cursive;
     margin: 0px;
-    
+    place-self: center;
 }
 
  h2 {
     font-family: 'Lato', sans-serif;
     margin: 0px;
+    place-self: center;
 }
 
 footer{
