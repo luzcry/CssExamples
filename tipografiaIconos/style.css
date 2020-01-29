@@ -1,17 +1,17 @@
-#container{ 
-    display: flex;
+.container{ 
+    display: grid;
     background-color: white;
     border:rgb(241, 227, 209) 1px solid;
 }
 
-.box{
+/*.box{
     border: rgb(241, 227, 209) 1px solid;
     width: 300px;
     height: 300px;
     justify-items: center;
     padding: 1rem;
     font-family:  'Lato', sans-serif;
-   }
+   } */
 
    .img{
        padding: 50px;
